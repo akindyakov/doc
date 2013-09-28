@@ -1,0 +1,79 @@
+\documentclass{article}
+
+\usepackage [utf8] {inputenc}
+
+\usepackage[unicode]{hyperref}
+
+% включаем переносы для русского и английского языка
+\usepackage[english,russian]{babel}
+
+% Начинать первый параграф раздела следует с красной строки
+\usepackage{indentfirst}
+
+% Выбор внутренней TEX−кодировки
+\usepackage [T2A]{fontenc}
+
+\usepackage{cmap}
+
+\usepackage{multirow}
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=2cm}% левое поле
+\geometry{right=1.5cm}% правое поле
+\geometry{top=2cm}% верхнее поле
+\geometry{bottom=2cm}% нижнее поле
+
+
+\begin{document}
+{\LARGE\textbf{Александр Киндяков}}
+% Линейка горизонтальная
+\hrule\smallskip
+% Линейка вертикальная нулевой толщины и нужной выстоты
+\rule{0pt}{5mm}
+{\normalsize
+\itshape
+%выравнивание по правому краю
+\begin{flushright}
+Госпитальный пер. 4/6 \\
+г.Москва, Россия \\
+тел: +7-926-453-25-30 \\
+email: akindyakov@gmail.com \\
+github: https://github.com/AKindyakov \\
+\end{flushright}
+}
+
+\begin{tabular}{ll}
+
+{\Large Цель } \rule{0pt}{1cm} &
+Цель \\
+
+{\Large Опыт работы } \rule{0pt}{1cm} &
+\begin{tabular}{ll}
+Опыт работы & опыт \\
+Опыт работы & опыт \\
+\end{tabular} \\
+
+{\Large Образование} \rule{0pt}{1cm} &
+Образование \\
+
+{\Large Языки} \rule{0pt}{1cm} &
+Языки \\
+
+{\Large Семейное положение} \rule{0pt}{1cm} &
+холост \\
+
+{\Large{Навыки}} \rule{0pt}{1cm} &
+    \begin{tabular}{ll}
+    \textbullet \rule{2mm}{0pt}Языки пронаммирования:   & C, C++, C/C++ Stl, Lua, Scilab, CMake \\
+    \textbullet \rule{2mm}{0pt}Системы контроля версий: & Git, Subversion \\
+    \textbullet \rule{2mm}{0pt}Операционные системы:    & GNU/Linux, Windows \\
+    \end{tabular} \\
+
+{\Large{Интересы}} \rule{0pt}{1cm} &
+Интересы \\
+
+\end{tabular}
+
+
+\end{document}
+
