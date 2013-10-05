@@ -1,12 +1,12 @@
 HELLO_MSG="My resume latex building"
 PRODUCT_DIR='product'
 
+all: resume.pdf
+
 hello: 
 	@echo "---------------------------"
 	@echo " "${HELLO_MSG}
 	@echo "==========================="
-
-all: resume.pdf
 
 pdf: resume.pdf
 
