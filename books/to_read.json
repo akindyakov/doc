@@ -2,159 +2,132 @@
     {
         "name": "Срок авансом",
         "auth": "У.Тенн"
-        "from": ""
+    },{
+        "name": "Last Chance to See",
+        "auth": "Adams, Douglas"
+    },{
+        "name": "The Bell Jar",
+        "auth": "Plath, Sylvia"
+    },{
+        "name": "Do Androids Dream of Electric Sheep?",
+        "auth": "Dick, Philip K."
     },{
         "name": "Цветы для Элджернона",
         "auth": "Д.Киз"
-        "from": ""
     },{
         "name": "Теория обучения",
         "auth": "Д.Макконел"
-        "from": ""
     },{
         "name": "Уровень шума",
         "auth": "Р.Ф.Джоунм"
-        "from": ""
     },{
         "name": "Как хорошо в вашем обществе",
         "auth": "Р.Силверберг"
-        "from": ""
     },{
         "name": "Информация",
         "auth": "П.Дж.Уайл"
-        "from": ""
     },{
         "name": "Попытка",
         "auth": "Т.Шерред"
-        "from": ""
     },{
         "name": "Феномен исчезновения",
         "auth": "А.Бестер"
-        "from": ""
     },{
         "name": "Часы времени",
         "auth": "А.Э.Ван Вогт"
-        "from": ""
     },{
         "name": "Голова",
         "auth": "Н.Виннер"
-        "from": ""
     },{
         "name": "Скальпель Оккама",
         "auth": "Т.Старджон"
-        "from": ""
     },{
         "name": "Сосед",
         "auth": "К.Саймак"
-        "from": ""
     },{
         "name": "Вот именно",
         "auth": "Ф.Пол"
-        "from": ""
     },{
         "name": "Девять жизней",
         "auth": "У.Ле.Гуин"
-        "from": ""
     },{
         "name": "Чувство силы",
         "auth": "А.Азимов"
-        "from": ""
     },{
         "name": "Кое что задаром",
         "auth": "Р.Шекли"
-        "from": ""
     },{
         "name": "Фантастическая сага",
-        "auth": "Г.Гаррисон",
-        "from": ""
+        "auth": "Г.Гаррисон"
     },{
         "name": "Математическое понимание природы",
-        "auth": "Arnol'd, Vladimir I.",
-        "from": ""
+        "auth": "Arnol'd, Vladimir I."
     },{
         "name": "The Martian Chronicles",
-        "auth": "Bradbury, Ray",
-        "from": ""
+        "auth": "Bradbury, Ray"
     },{
         "name": "The Fellowship of the Ring",
-        "auth": "Tolkien, J.R.R.",
-        "from": ""
+        "auth": "Tolkien, J.R.R."
     },{
         "name": "Remote: Office Not Required",
-        "auth": "Hansson, David Heinemeier",
-        "from": ""
+        "auth": "Hansson, David Heinemeier"
     },{
         "name": "The Return of the King",
-        "auth": "Tolkien, J.R.R.",
-        "from": ""
+        "auth": "Tolkien, J.R.R."
     },{
         "name": "Mostly Harmless (Hitchhiker's Guide)",
-        "auth": "Adams, Douglas",
-        "from": ""
+        "auth": "Adams, Douglas"
     },{
         "name": "The Two Towers",
-        "auth": "Tolkien, J.R.R.",
-        "from": ""
+        "auth": "Tolkien, J.R.R."
     },{
         "name": "The Picture of Dorian Gray",
-        "auth": "Wilde, Oscar",
-        "from": ""
+        "auth": "Wilde, Oscar"
     },{
         "name": "A Space Odyssey",
-        "auth": "Clarke, Arthur",
-        "from": ""
+        "auth": "Clarke, Arthur"
     },{
         "name": "The Hobbit",
-        "auth": "Tolkien, J.R.R.",
-        "from": ""
+        "auth": "Tolkien, J.R.R."
     },{
         "name": "Lolita",
-        "auth": "Nabokov, Vladimir",
-        "from": ""
+        "auth": "Nabokov, Vladimir"
     },{
         "name": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs",
-        "auth": "Meyers, Scott",
-        "from": ""
+        "auth": "Meyers, Scott"
     },{
         "name": "The Adventures of Sherlock Holmes",
         "auth": "Doyle, Arthur Conan",
         "from": "hagtorp"
     },{
         "name": "Paradise Lost",
-        "auth": "Milton, John",
-        "from": ""
+        "auth": "Milton, John"
     },{
         "name": "Structure and Interpretation of Computer Programs (MIT Electrical Engineering and Computer Science)",
-        "auth": "Abelson, Harold",
-        "from": ""
+        "auth": "Abelson, Harold"
     },{
         "name": "On Writing: A Memoir of the Craft",
-        "auth": "King, Stephen",
-        "from": ""
+        "auth": "King, Stephen"
     },{
         "name": "Иуда Искариот",
         "auth": "Andreyev, Leonid",
         "from": "snikitin"
     },{
         "name": "The Restaurant at the End of the Universe",
-        "auth": "Adams, Douglas",
-        "from": ""
+        "auth": "Adams, Douglas"
     },{
         "name": "Childhood's End",
-        "auth": "Clarke, Arthur",
-        "from": ""
+        "auth": "Clarke, Arthur"
     },{
         "name": "Pro Git",
         "auth": "Chacon, Scott",
         "from": "habrahabr.ru"
     },{
         "name": "The C Programming Language",
-        "auth": "Kernighan, Brian W.",
-        "from": ""
+        "auth": "Kernighan, Brian W."
     },{
         "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
-        "auth": "Gamma, Erich",
-        "from": ""
+        "auth": "Gamma, Erich"
     },{
         "name": "C++ Coding Standards : Rules, Guidelines, and Best Practices",
         "auth": "Sutter, Herb",

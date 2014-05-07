@@ -2,6 +2,8 @@
     {
         "name": "Дзен и искусство ухода за мотоциклом",
         "auth": "Pirsig, Robert M.",
+        "from": "habrahabr.ru",
+        "rate": 0.95,
         "date": "Oct 02, 2013"
     },{
         "name": "Machine Man",
@@ -10,27 +12,25 @@
     },{
         "name": "Brave New World",
         "auth": "Huxley, Aldous",
+        "from": "mention in Дзен и искусство ухода за мотоциклом",
+        "rate": 0.65,
         "date": "Mar 31, 2014"
     },{
         "name": "Мёртвым не больно",
-        "auth": "Василь Быков, Vasil Bykaw",
+        "auth": "Василь Быков",
+        "from": "Якимов Семен",
+        "rate": 0.7,
         "date": "Oct 02, 2013"
     },{
         "name": "Крестный отец",
         "auth": "Puzo, Mario",
+        "rate": 0.6,
         "date": "Feb 06, 2014"
-    },{
-        "name": "Last Chance to See",
-        "auth": "Adams, Douglas",
-        "date": "Mar 31, 2014"
     },{
         "name": "The Art of Electronics",
         "auth": "Horowitz, Paul",
+        "from": "Кузин Юрий",
         "date": "Oct 02, 2013"
-    },{
-        "name": "Do Androids Dream of Electric Sheep?",
-        "auth": "Dick, Philip K.",
-        "date": "Mar 31, 2014"
     },{
         "name": "Ночь в тоскливом октябре",
         "auth": "Zelazny, Roger",
@@ -54,14 +54,11 @@
     },{
         "name": "Fahrenheit 451",
         "auth": "Bradbury, Ray",
-        "date": "Mar 31, 2014"
-    },{
-        "name": "The Bell Jar",
-        "auth": "Plath, Sylvia",
-        "date": "Mar 31, 2014"
+        "date": "Jun 1, 2009"
     },{
         "name": "The Night in Lisbon",
         "auth": "Remarque, Erich Maria",
+        "from": "Kuleshova Masha",
         "date": "Oct 16, 2013"
     },{
         "name": "Slaughterhouse-Five",
@@ -70,31 +67,33 @@
     },{
         "name": "I, Robot",
         "auth": "Asimov, Isaac",
-        "date": "Mar 31, 2014"
+        "date": "Jan 1, 2012"
     },{
         "name": "The Little Prince",
         "auth": "Saint-Exupery, Antoine de",
-        "date": "Mar 31, 2014"
+        "date": "Jan 1, 2002"
     },{
         "name": "По ком звонит колокол",
         "auth": "Hemingway, Ernest",
-        "date": "Oct 02, 2013"
+        "date": "Sep 09, 2012"
     },{
         "name": "Ender's Game",
         "auth": "Card, Orson Scott",
+        "from": "snikitin",
         "date": "Mar 31, 2014"
     },{
         "name": "Собачье сердце",
         "auth": "Bulgakov, Mikhail",
-        "date": "Oct 02, 2013"
+        "date": "Oct 02, 2007"
     },{
         "name": "Земля обетованная",
         "auth": "Remarque, Erich Maria",
-        "date": "Oct 04, 2013"
+        "date": "Jan 01, 2010"
     },{
         "name": "Три товарища",
         "auth": "Remarque, Erich Maria",
-        "date": "Oct 04, 2013"
+        "from": "Tanya G",
+        "date": "Apr 19, 2010"
     },{
         "name": "The Hitchhiker's Guide to the Galaxy",
         "auth": "Adams, Douglas",
@@ -114,27 +113,23 @@
     },{
         "name": "Ночь в Лиссабоне. Тени в раю.",
         "auth": "Remarque, Erich Maria",
-        "date": "Oct 04, 2013"
+        "date": "Oct 04, 2010"
     },{
         "name": "A Farewell to Arms",
         "auth": "Hemingway, Ernest",
-        "date": "Oct 04, 2013"
+        "date": "Jun 03, 2012"
     },{
         "name": "Пикник на обочине",
         "auth": "Стругацкий Аркадийб Стругацкий Борис",
-        "date": "Oct 02, 2013"
+        "date": "Oct 02, 2007"
     },{
         "name": "Улитка на склоне",
         "auth": "Стругацкий Аркадийб Стругацкий Борис",
-        "date": "Oct 02, 2013"
+        "date": "Oct 02, 2012"
     },{
         "name": "Отель «У погибшего альпиниста»",
         "auth": "Стругацкий Аркадийб Стругацкий Борис",
-        "date": "Oct 02, 2013"
-    },{
-        "name": "Pro Git",
-        "auth": "Chacon, Scott",
-        "date": "Oct 02, 2013"
+        "date": "Oct 02, 2012"
     },{
         "name": "Затерянные в океане",
         "auth": "Reid, Thomas Mayne",
@@ -142,11 +137,11 @@
     },{
         "name": "The White Chief",
         "auth": "Reid, Thomas Mayne",
-        "date": "Oct 14, 2013"
+        "date": "Aug 03, 2003"
     },{
         "name": "Далекая радуга",
         "auth": "Strugatsky, Arkady",
-        "date": "Oct 02, 2013"
+        "date": "Oct 02, 2007"
     },{
         "name": "Алгоритмы на C++",
         "auth": "Седжвик, Роберт",
@@ -158,11 +153,11 @@
     },{
         "name": "Желтая стрела",
         "auth": "Pelevin, Victor",
-        "date": "Mar 31, 2014"
+        "date": "Feb 01, 2008"
     },{
-        "name": "Oct 02, 2013"
+        "name": "Starship Troopers",
         "auth": "Heinlein, Robert A.",
-        "date": "Mar 31, 2014"
+        "date": "Aug 31, 2013"
     },{
         "name": "Невыносимая легкость бытия",
         "auth": "Kundera, Milan",
