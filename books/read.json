@@ -1,0 +1,175 @@
+[
+    {
+        "name": "Дзен и искусство ухода за мотоциклом",
+        "auth": "Pirsig, Robert M.",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Machine Man",
+        "auth": "Barry, Max *",
+        "date": "Mar 14, 2014"
+    },{
+        "name": "Brave New World",
+        "auth": "Huxley, Aldous",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Мёртвым не больно",
+        "auth": "Василь Быков, Vasil Bykaw",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Крестный отец",
+        "auth": "Puzo, Mario",
+        "date": "Feb 06, 2014"
+    },{
+        "name": "Last Chance to See",
+        "auth": "Adams, Douglas",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "The Art of Electronics",
+        "auth": "Horowitz, Paul",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Do Androids Dream of Electric Sheep?",
+        "auth": "Dick, Philip K.",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Ночь в тоскливом октябре",
+        "auth": "Zelazny, Roger",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "The Painted Veil",
+        "auth": "Maugham, W. Somerset",
+        "date": "Nov 08, 2013"
+    },{
+        "name": "The Quadroon",
+        "auth": "Reid, Thomas Mayne",
+        "date": "Oct 14, 2013"
+    },{
+        "name": "Гадкие лебеди",
+        "auth": "Strugatsky, Arkady",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "451 градус по Фаренгейту",
+        "auth": "Bradbury, Ray",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Fahrenheit 451",
+        "auth": "Bradbury, Ray",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "The Bell Jar",
+        "auth": "Plath, Sylvia",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "The Night in Lisbon",
+        "auth": "Remarque, Erich Maria",
+        "date": "Oct 16, 2013"
+    },{
+        "name": "Slaughterhouse-Five",
+        "auth": "Vonnegut, Kurt",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "I, Robot",
+        "auth": "Asimov, Isaac",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "The Little Prince",
+        "auth": "Saint-Exupery, Antoine de",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "По ком звонит колокол",
+        "auth": "Hemingway, Ernest",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Ender's Game",
+        "auth": "Card, Orson Scott",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Собачье сердце",
+        "auth": "Bulgakov, Mikhail",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Земля обетованная",
+        "auth": "Remarque, Erich Maria",
+        "date": "Oct 04, 2013"
+    },{
+        "name": "Три товарища",
+        "auth": "Remarque, Erich Maria",
+        "date": "Oct 04, 2013"
+    },{
+        "name": "The Hitchhiker's Guide to the Galaxy",
+        "auth": "Adams, Douglas",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Solaris",
+        "auth": "Lem, Stanislaw",
+        "date": "Oct 14, 2013"
+    },{
+        "name": "Dune",
+        "auth": "Herbert, Frank",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Чистый код: создание, анализ и рефакторинг",
+        "auth": "Martin, Robert C.",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Ночь в Лиссабоне. Тени в раю.",
+        "auth": "Remarque, Erich Maria",
+        "date": "Oct 04, 2013"
+    },{
+        "name": "A Farewell to Arms",
+        "auth": "Hemingway, Ernest",
+        "date": "Oct 04, 2013"
+    },{
+        "name": "Пикник на обочине",
+        "auth": "Стругацкий Аркадийб Стругацкий Борис",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Улитка на склоне",
+        "auth": "Стругацкий Аркадийб Стругацкий Борис",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Отель «У погибшего альпиниста»",
+        "auth": "Стругацкий Аркадийб Стругацкий Борис",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Pro Git",
+        "auth": "Chacon, Scott",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Затерянные в океане",
+        "auth": "Reid, Thomas Mayne",
+        "date": "Oct 14, 2013"
+    },{
+        "name": "The White Chief",
+        "auth": "Reid, Thomas Mayne",
+        "date": "Oct 14, 2013"
+    },{
+        "name": "Далекая радуга",
+        "auth": "Strugatsky, Arkady",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Алгоритмы на C++",
+        "auth": "Седжвик, Роберт",
+        "date": "Oct 02, 2013"
+    },{
+        "name": "Ночь в тоскливом октябре",
+        "auth": "Zelazny, Roger",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Желтая стрела",
+        "auth": "Pelevin, Victor",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Oct 02, 2013"
+        "auth": "Heinlein, Robert A.",
+        "date": "Mar 31, 2014"
+    },{
+        "name": "Невыносимая легкость бытия",
+        "auth": "Kundera, Milan",
+        "date": "Feb 06, 2014"
+    },{
+        "name": "Два капитана",
+        "auth": "Kaverin, Veniamin",
+        "date": "Mar 18, 2014"
+    }
+]

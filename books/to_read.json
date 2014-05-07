@@ -1,0 +1,163 @@
+[
+    {
+        "name": "Срок авансом",
+        "auth": "У.Тенн"
+        "from": ""
+    },{
+        "name": "Цветы для Элджернона",
+        "auth": "Д.Киз"
+        "from": ""
+    },{
+        "name": "Теория обучения",
+        "auth": "Д.Макконел"
+        "from": ""
+    },{
+        "name": "Уровень шума",
+        "auth": "Р.Ф.Джоунм"
+        "from": ""
+    },{
+        "name": "Как хорошо в вашем обществе",
+        "auth": "Р.Силверберг"
+        "from": ""
+    },{
+        "name": "Информация",
+        "auth": "П.Дж.Уайл"
+        "from": ""
+    },{
+        "name": "Попытка",
+        "auth": "Т.Шерред"
+        "from": ""
+    },{
+        "name": "Феномен исчезновения",
+        "auth": "А.Бестер"
+        "from": ""
+    },{
+        "name": "Часы времени",
+        "auth": "А.Э.Ван Вогт"
+        "from": ""
+    },{
+        "name": "Голова",
+        "auth": "Н.Виннер"
+        "from": ""
+    },{
+        "name": "Скальпель Оккама",
+        "auth": "Т.Старджон"
+        "from": ""
+    },{
+        "name": "Сосед",
+        "auth": "К.Саймак"
+        "from": ""
+    },{
+        "name": "Вот именно",
+        "auth": "Ф.Пол"
+        "from": ""
+    },{
+        "name": "Девять жизней",
+        "auth": "У.Ле.Гуин"
+        "from": ""
+    },{
+        "name": "Чувство силы",
+        "auth": "А.Азимов"
+        "from": ""
+    },{
+        "name": "Кое что задаром",
+        "auth": "Р.Шекли"
+        "from": ""
+    },{
+        "name": "Фантастическая сага",
+        "auth": "Г.Гаррисон",
+        "from": ""
+    },{
+        "name": "Математическое понимание природы",
+        "auth": "Arnol'd, Vladimir I.",
+        "from": ""
+    },{
+        "name": "The Martian Chronicles",
+        "auth": "Bradbury, Ray",
+        "from": ""
+    },{
+        "name": "The Fellowship of the Ring",
+        "auth": "Tolkien, J.R.R.",
+        "from": ""
+    },{
+        "name": "Remote: Office Not Required",
+        "auth": "Hansson, David Heinemeier",
+        "from": ""
+    },{
+        "name": "The Return of the King",
+        "auth": "Tolkien, J.R.R.",
+        "from": ""
+    },{
+        "name": "Mostly Harmless (Hitchhiker's Guide)",
+        "auth": "Adams, Douglas",
+        "from": ""
+    },{
+        "name": "The Two Towers",
+        "auth": "Tolkien, J.R.R.",
+        "from": ""
+    },{
+        "name": "The Picture of Dorian Gray",
+        "auth": "Wilde, Oscar",
+        "from": ""
+    },{
+        "name": "A Space Odyssey",
+        "auth": "Clarke, Arthur",
+        "from": ""
+    },{
+        "name": "The Hobbit",
+        "auth": "Tolkien, J.R.R.",
+        "from": ""
+    },{
+        "name": "Lolita",
+        "auth": "Nabokov, Vladimir",
+        "from": ""
+    },{
+        "name": "Effective C++: 55 Specific Ways to Improve Your Programs and Designs",
+        "auth": "Meyers, Scott",
+        "from": ""
+    },{
+        "name": "The Adventures of Sherlock Holmes",
+        "auth": "Doyle, Arthur Conan",
+        "from": "hagtorp"
+    },{
+        "name": "Paradise Lost",
+        "auth": "Milton, John",
+        "from": ""
+    },{
+        "name": "Structure and Interpretation of Computer Programs (MIT Electrical Engineering and Computer Science)",
+        "auth": "Abelson, Harold",
+        "from": ""
+    },{
+        "name": "On Writing: A Memoir of the Craft",
+        "auth": "King, Stephen",
+        "from": ""
+    },{
+        "name": "Иуда Искариот",
+        "auth": "Andreyev, Leonid",
+        "from": "snikitin"
+    },{
+        "name": "The Restaurant at the End of the Universe",
+        "auth": "Adams, Douglas",
+        "from": ""
+    },{
+        "name": "Childhood's End",
+        "auth": "Clarke, Arthur",
+        "from": ""
+    },{
+        "name": "Pro Git",
+        "auth": "Chacon, Scott",
+        "from": "habrahabr.ru"
+    },{
+        "name": "The C Programming Language",
+        "auth": "Kernighan, Brian W.",
+        "from": ""
+    },{
+        "name": "Design Patterns: Elements of Reusable Object-Oriented Software",
+        "auth": "Gamma, Erich",
+        "from": ""
+    },{
+        "name": "C++ Coding Standards : Rules, Guidelines, and Best Practices",
+        "auth": "Sutter, Herb",
+        "from": "abv"
+    }
+]
