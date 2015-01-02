@@ -136,9 +136,6 @@
         "auth": "Sutter, Herb",
         "from": "abv"
     },{
-        "name": "Бог как иллюзия",
-        "auth": "Докинз"
-    },{
         "name": "Новый ум короля",
         "auth": "Роджер Пенроуз",
         "from": {
@@ -217,7 +214,8 @@
         "auth": "Стивен Кинг"
     },{
         "name": "Атлант расправил плечи",
-        "auth": "Айн Рэнд"
+        "auth": "Айн Рэнд",
+        "from": "xemelia"
     },{
         "name": "Мародер",
         "auth": "Беркем аль Атоми",
@@ -225,5 +223,21 @@
             "who": "habrahabr.ru",
             "comment": "Эту книгу, наверное, можно отнести к постаппокалептическим, ну и, с натяжкой, к руководству по выживанию.  Книга о том, как меняется человек, когда его жизнь становиться одним сплошным полем сражения. Осторожно, присутствует нецензурная лексика."
         }
+    },{
+        "name": "A Study in Scarlet",
+        "auth": "Arthur Conan Doyle",
+        "tag": "Sherlock Holmes"
+    },{
+        "name": "The Sign of the Four",
+        "auth": "Arthur Conan Doyle",
+        "tag": "Sherlock Holmes"
+    },{
+        "name": "The Hound of the Baskervilles",
+        "auth": "Arthur Conan Doyle",
+        "tag": "Sherlock Holmes"
+    },{
+        "name": "The Valley of Fear",
+        "auth": "Arthur Conan Doyle",
+        "tag": "Sherlock Holmes"
     }
 ]
