@@ -1,4 +1,4 @@
-\documentclass[a4paper, 11pt]{article}
+\documentclass[a4paper, 10pt]{article}
 %\documentclass{article}
 \usepackage [utf8] {inputenc}
 % включаем переносы для русского и английского языка
@@ -18,15 +18,18 @@
 \hypersetup{colorlinks,breaklinks,urlcolor=LINKCOLOUR,linkcolor=LINKCOLOUR}
 
 \usepackage{geometry} % Меняем поля страницы
-\geometry{left=2.5cm}% левое поле
-\geometry{right=2cm}% правое поле
-\geometry{top=2cm}% верхнее поле
-\geometry{bottom=2cm}% нижнее поле
+\geometry{left=20mm}% левое поле
+\geometry{right=15mm}% правое поле
+\geometry{top=15mm}% верхнее поле
+\geometry{bottom=15mm}% нижнее поле
 
 \usepackage{titlesec} % Used to customize the \section command
 \titleformat{\section}{\Large\raggedright}{\color{green}}{0em}{}[\titlerule] % Text formatting of sections
 %\titleformat{\section}{\large\scshape\raggedright}{\color{green}}{0em}{}[\titlerule] % Text formatting of sections
 \titlespacing{\section}{2pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage{longtable}
+\usepackage{enumitem}
 
 \pagestyle{empty}
 
@@ -37,7 +40,7 @@
 \begin{flushright}
     {\itshape
         г.Москва, Россия \\
-        +7-926-453-25-30 \\
+        +7--926--453--25--30 \\
         \href{mailto:akindyakov@gmail.com}{akindyakov@gmail.com} \\
         \href{https://github.com/akindyakov}{github.com/akindyakov} \\
         \href{http://ru.linkedin.com/in/alexanderkindyakov}{ru.linkedin.com/in/alexanderkindyakov} \\
@@ -45,77 +48,66 @@
 \end{flushright}
 
 
-\section{Навыки}
-\begin{itemize}
-    \item Языки программирования:   C(C99), C++(ISO/IEC 2003), Lua(5.1, 5.2), Bash(UNIX Shell)
-    \item Библиотеки:               STL, OpenCV(2.2, 2.3), Boost (4.8, 4.9)
-    \item Прикладные программы:     CMake, GNU-Make, Vim, Doxygen, SciLab(5.3.2 - 5.4.1), Matlab
-    \item Системы контроля версий:  Git, Subversion
-    \item Операционные системы:     GNU/Linux(Ubintu 10.04 и выше), Windows(XP, Win7)
-\end{itemize}
-
 \section{Опыт работы }
-\begin{tabular}{p{25mm}|p{110mm}}
-2011 - 2013 & \textbf{``Лаборатория трехмерного зрения''} \\
-& Junior C / C++ Developer \\
-до настоящего момента &
-\begin{itemize}
-    \item Разработал систему автоматического управления
-    3х степенного манипулятора на основе микроконтролеров семейства STM8.
-    \item ПО для комплексного тестирования, настройки и диагностики
-    неисправностей для узлов и систем манипуляторра робота.
-    \item Занимался работой над системой навигации робота,
-    написал алгоритм автоматической стыковки робота с докстанцией.
-    \item Поддержка ПО на платформу x86 написанного на C++, Lua 5.1
-    для управления, отладки и контроля за микроконтролерными системами.
-    \item Сделал систему технического зрения для
-    распознавания интерьеров по видеопотоку на основе (OpenCV 2.3).
-    \item Учавствовал разработке систем стабилизации и
-    распознования входного видеопотока.
-    \item Работал над искуственным интеллектом роботехнического комплекса.
-    (проект был заморожен)
+\begin{longtable}{p{20mm}|p{140mm}}
+2013 ---
+& \textbf{``Яндекс''} \\
+& \href{https://yandex.ru/}{yandex.ru} \\
+& Software Engineer \\
+& \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+    \item[--] Поисковый антиспам
+    \item[--] Разработка распределенной системы хранения данных
+    \item[--] Разработка и оптимизация производительности системы обработки потока web--документов
 \end{itemize}
 \\
-\end{tabular}
+
+2011 --- 2013 & \textbf{``Лаборатория трехмерного зрения''} \\
+& \href{http://www.3detection.com/}{www.3detection.com} \\
+& Junior C / C++ Developer \\
+& \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+    \item[--] Разработал систему автоматического управления
+    3х степенного манипулятора на основе микроконтроллеров семейства STM8.
+    \item[--] ПО для комплексного тестирования, настройки и диагностики
+    неисправностей для узлов и систем манипулятора робота.
+    \item[--] Занимался работой над системой навигации робота,
+    написал алгоритм автоматической стыковки робота с док--станцией.
+    \item[--] Поддержка ПО на платформу x86 написанного на C++, Lua 5.1
+    для управления, отладки и контроля за микроконтроллерными системами.
+    \item[--] Сделал систему технического зрения для
+    распознавания интерьеров по видеопотоку на основе (OpenCV 2.3).
+    \item[--] Работал над искусственным интеллектом робототехнического комплекса.
+    (проект был заморожен).
+\end{itemize}
+\\
+\end{longtable}
 
 \section{Образование}
-\begin{tabular}{p{25mm}|p{110mm}}
-2008-2014             & ``МГТУ им Н.Э. Баумана'' \\
-до настоящего момента & Факультет ``Специальное машиностроение'' \\
-                      & Кафедра ``Специальная робототехника и мехатроника'' \\
-                      & URL: \href{http://bmstu.ru}{bmstu.ru} \\
-                      & Получаемая степень: Магистр \\
-                      & Год окончания 2014
-\end{tabular}
+\begin{longtable}{p{20mm}|p{140mm}}
+2008 --- 2014
+& ``МГТУ им Н.Э. Баумана'' \\
+& \href{http://www.bmstu.ru}{www.bmstu.ru} \\
+& Факультет ``Специальное машиностроение'' \\
+& Кафедра ``Специальная робототехника и мехатроника'' \\
+& Полученная степень: Специалист \\
+& Год окончания 2014 \\
+& Диплом с отличием \\
+& Тема дипломного проекта: ``\textit{Привод для двухстепенного манипулятора спутника}'' \\
+& Научный руководитель: Бошляков Андрей Анатольевич \\
+\end{longtable}
 
-\section{Научные и фундаментальные знания}
-\begin{itemize}
-    \item Системы автоматического управления
-    \item Алгоритмы и структуры данных, линейная алгебра, дискретная математика
-    \item Теоретическая механика
-\end{itemize}
+% \section{Научные и фундаментальные знания}
+% \begin{itemize}
+%     \item Системы автоматического управления
+%     \item Алгоритмы и структуры данных, линейная алгебра, дискретная математика
+%     \item Теоретическая механика
+% \end{itemize}
 
 \section{Иностранные языки}
 \begin{itemize}
-    \item Русский    - родной язык
-    \item Английский - Pre-Intermediate
+    \item[--] Русский    --- родной язык
+    \item[--] Английский --- Intermediate
 \end{itemize}
 
-
-\section{Интересы}
-\begin{itemize}
-    \item Алгоритмы и методики в области технического зрения, экпериметировал с OpenCV.
-    \item Классические алгоритмы и ихреализация, разбираю книгу P. Седжвика, ``Алгоритмы C++''
-    \item Литература: читаю книги, как о разработке и проектировании програмных
-продуктов так и художественные.
-
-\href{http://www.goodreads.com/user/show/24404721-alexander-kindyakov}{goodreads.com/user/show/alexander-kindyakov}
-    \item Разработка игр: в компании с моим другом разрабатываем небольшую игру, в которой
-используем C++, STL, Polycode Framework и CMake в качестве системы сборки.
-
-\href{https://github.com/thegreenbox/helium}{GitHub.com/TheGreenBox/Helium}
-    \item Спорт: спортивные бальные танцы и плавание
-\end{itemize}
 
 \end{document}
 
