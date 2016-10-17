@@ -1,6 +1,6 @@
-HELLO_MSG="My CV latex building"
-PRODUCT_DIR='product'
-TEX=latex -output-directory=$(PRODUCT_DIR) -output-format=pdf -halt-on-error
+HELLO_MSG := "My CV latex building"
+PRODUCT_DIR := product
+TEX := latex -output-directory=$(PRODUCT_DIR) -output-format=pdf -halt-on-error
 
 .PHONY: hello pdf clean
 
