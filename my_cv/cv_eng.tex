@@ -55,9 +55,36 @@
 & \href{https://yandex.ru/}{yandex.ru} \\
 & Software Engineer \\
 & \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-    \item[--] Web--Search anti--spam.
-    \item[--] Distributed storage system development.
-    \item[--] Web--documents processing system development and optimization.
+    \item[+] Web--Search antispam.
+    \item[+] Distributed key--value in-memory fast data base (cluster size 50-100 nodes):
+        \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+            \item logging in syslog and logfile instead of stderr;
+            \item revise response formats code, create JSON format and sending detailed error report;
+            \item stability and exceptions--safety problem (there is no chance to fail in case of a bad request or other manageable problem);
+            \item solve replicas synchronization problem in the case of pool connectivity (bug in renovated replica update process by HEAD replica);
+            \item generating and computing data sets for different instances of this DB;
+            \item monitorings for instance updating processes.
+        \end{itemize}
+
+    \item[+] High-performance web-documents processing system:
+        \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+            \item refactoring base library (for the sake of optimization)
+                \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+                    \item carry over serializing/deserializing in the separate library, hide implementations behind universal interface;
+                    \item use hash-table for intermediate results instead of slow custom solution based on the std::vector;
+                \end{itemize}
+            \item creating code unit and integration tests;
+            \item monitorings for all point of the workflow;
+            \item carry over all computations from cluster (size 70-90 nodes) solution to Map--Reduce system (Yandex implementation of Map-Reduce framework for big data);
+            \item responsibility for the whole process from C++ code and text features code to computed values delivery to web-search back-end.
+        \end{itemize}
+    \item[+] Declarative language to describe html-text features:
+    \begin{itemize}[topsep = 0pt, itemsep = 0pt]
+        \item ajust new text analyzers;
+        \item revise code solution for serializing compiled byte-code (using google protoBuf instead of plain text);
+    \end{itemize}
+
+
 \end{itemize}
 \\
 
@@ -65,12 +92,12 @@
 & \href{http://www.3detection.com/}{www.3detection.com} \\
 & Software Engineer \\
 & \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-    \item[--] Automatic control system for robotic 3--degree--of--freedom manipulator.
-    \item[--] Testing, adjustment and problem diagnostics software for robotic arm.
-    \item[--] Robot navigation system based on the telemetry, GPS and Earth magnetic field.
-    \item[--] Remote control and adjustment system for mobile robot.
-    \item[--] Image recognition for mobile robot computer vision.
-    \item[--] AI for mobile robot (project was scrapped).
+    \item[+] Automatic control system for robotic 3--degree--of--freedom manipulator.
+    \item[+] Testing, adjustment and problem diagnostics software for robotic arm.
+    \item[+] Robot navigation system based on the telemetry, GPS and Earth magnetic field.
+    \item[+] Remote control and adjustment system for mobile robot.
+    \item[+] Image recognition for mobile robot computer vision.
+    \item[+] AI for mobile robot (project was scrapped).
 \end{itemize}
 \\
 \end{longtable}
@@ -90,8 +117,8 @@
 \section{Language proficiency}
 \begin{longtable}{p{20mm}|p{140mm}}
 & \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-    \item[--] Russian --- native
-    \item[--] English --- intermediate
+    \item[+] Russian --- native
+    \item[+] English --- intermediate
 \end{itemize} \\
 \end{longtable}
 
