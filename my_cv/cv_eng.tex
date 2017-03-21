@@ -69,19 +69,14 @@
     \item[+] High-performance web-documents processing system:
         \begin{itemize}[topsep = 0pt, itemsep = 0pt]
             \item refactoring base library (for the sake of optimization)
-                \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-                    \item carry over serializing/deserializing in the separate library, hide implementations behind universal interface;
-                    \item use hash-table for intermediate results instead of slow custom solution based on the std::vector;
-                \end{itemize}
             \item creating code unit and integration tests;
             \item monitorings for all point of the workflow;
-            \item carry over all computations from cluster (size 70-90 nodes) solution to Map--Reduce system (Yandex implementation of Map-Reduce framework for big data);
-            \item responsibility for the whole process from C++ code and text features code to computed values delivery to web-search back-end.
+            \item carry over all computations from cluster (size 70-90 nodes) solution to Map--Reduce system.
         \end{itemize}
     \item[+] Declarative language to describe html-text features:
     \begin{itemize}[topsep = 0pt, itemsep = 0pt]
         \item ajust new text analyzers;
-        \item revise code solution for serializing compiled byte-code (using google protoBuf instead of plain text);
+        \item revise code solution for serializing compiled byte-code (using google protoBuf instead of plain text).
     \end{itemize}
 
 
