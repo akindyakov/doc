@@ -1,0 +1,90 @@
+\documentclass[a4paper, 10pt]{article}
+%\documentclass{article}
+\usepackage [utf8] {inputenc}
+% включаем переносы для русского и английского языка
+\usepackage[english,russian]{babel}
+% Начинать первый параграф раздела следует с красной строки
+\usepackage{indentfirst}
+% Выбор внутренней TEX−кодировки
+\usepackage [T2A]{fontenc}
+
+\usepackage{cmap}
+\usepackage{multirow}
+
+\usepackage{xcolor}
+
+\usepackage{hyperref}
+\definecolor{LINKCOLOUR}{rgb}{0.1,0.0,0.9}
+\hypersetup{colorlinks,breaklinks,urlcolor=LINKCOLOUR,linkcolor=LINKCOLOUR}
+
+\usepackage{geometry} % Меняем поля страницы
+\geometry{left=20mm}% левое поле
+\geometry{right=15mm}% правое поле
+\geometry{top=15mm}% верхнее поле
+\geometry{bottom=15mm}% нижнее поле
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\raggedright}{\color{green}}{0em}{}[\titlerule] % Text formatting of sections
+%\titleformat{\section}{\large\scshape\raggedright}{\color{green}}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{2pt}{3pt}{3pt} % Spacing around sections
+
+\usepackage{longtable}
+\usepackage{enumitem}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{itemize}
+\item a) What have you done in your career to date? – the interviewer will be looking to understand some of the technical problems you have faced in your career and what you did to overcome these. You must talk as yourself, avoid where possible answering “we” or “the team” as this can be off putting. In addition they will be looking to ensure you have been involved in the entire SDLC, so where possible talk from requirements gathering, story boarding, design, development, implementation and support.
+\item b) Why Bloomberg? Please visit this link; http://www.bloomberg.com/rd/ and familiarise yourself with the Research and Development group which is the part of the company you will be working in. There is a great example on Github of some of the code in production, https://github.com/bloomberg
+\item c) What your interest is in C++?; Advantages? Disadvantages?
+\item d) Logic based questions? These will be designed to test your approach to problem solving. They really can range from anything but be sure to be ready! Past examples; Reverse the words in a sentence without help; Random number generator; Golf balls in an aeroplane; Flies landing on a cube
+\item d) Basic C++ concepts – these will include but not limited to the list below –
+\end{itemize}
+
+\begin{itemize}
+\item C++ Standard Questions
+\item How is keyword virtual used in C++?
+\item Does better O() algorithm always works faster in real cases?
+\item Between pre-increment (++i)  and post-increment (i++) operator, which one is more efficient in both built-in and overloading case?
+\item Please compare array and linked-list in terms of insertion and access
+\item Please name some sorting algorithms and their time complexity
+\item Can you tell me the difference between stack and heap?
+\item What Linux command do I use the find a file in a directory recursively?
+\item what is the virtual functions and destructors
+\item what is the constructor destructor orders of a class then an inherited class
+\item what is the most known sort algorithms , and what is the complexity of each
+\item Smart Pointer, how does it work.
+\item Templates, when use instead of inheritance.
+\item Polymorphism, when use multi inheritance, problems that can happen,
+\item Sockets, monitoring sockets.
+\item Multithreading, give a small example of Producer, Consumer.
+\item Debugging issues, using GDB
+\item Linux (Windows doesn’t work, it’s difficult to test the person since we don’t know Windows)
+\item Multithreading
+\item TCP/IP and Multicast
+\item STL and Boost libraries
+\end{itemize}
+
+
+Previously Asked Questions
+\begin{enumerate}
+\item Why Bloomberg?
+\item Coding task 1 - Remove duplicate characters from the string. Estimate the complexity of the implemented algorithm.
+\item Coding task 2 - Bomb class throwing the exception in the destructor.
+\item Coding task 3 - Given  a code with different ways of memory allocation (new, malloc, etc) - explain each line. There was a tricky thing - calling 'new' for creating class instance with and without parenthesis.
+\item What is polymorphism. What is vtable? Static and dynamic polymorphism - how are they used in C++?
+\item What is the difference between 'new' and 'malloc'? What happens in case of error in both cases?
+\item What smart pointers have you used? Explain each of them.
+\item What containers have you used? What is the difference between vector and list? Hash based containers (hashset, hashmap) - how elements are stored and accessed?
+\item What is the difference between a process and a thread?
+\item What major problems may arise in multithreaded application?
+\item Difference between optimistic and pessimistic concurrency.
+\item In which memory area global variables are stored?
+\item DB question - what is foreign key?
+\item DB question - what is JOIN in SQL? What is the difference between INNER JOIN and OUTER JOIN.
+\end{enumerate}
+
+\end{document}
+

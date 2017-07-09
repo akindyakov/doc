@@ -1,24 +1,22 @@
-HELLO_MSG := "My CV latex building"
 PRODUCT_DIR := product
 TEX := latex -output-directory=$(PRODUCT_DIR) -output-format=pdf -halt-on-error
 
-.PHONY: hello pdf clean
+.PHONY: all rus eng clean
 
-hello:
-	@echo "---------------------------"
-	@echo " "$(HELLO_MSG)
-	@echo "==========================="
+all: $(PRODUCT_DIR)/cv.pdf $(PRODUCT_DIR)/cv_eng.pdf
 
-pdf: hello $(PRODUCT_DIR)/cv.pdf $(PRODUCT_DIR)/cv_eng.pdf
+rus: $(PRODUCT_DIR)/cv.pdf
 
-$(PRODUCT_DIR)/cv.pdf: cv.tex hello prepare
+eng: $(PRODUCT_DIR)/cv_eng.pdf
+
+$(PRODUCT_DIR)/cv.pdf: cv.tex $(PRODUCT_DIR)
 	$(TEX) $<
 
-$(PRODUCT_DIR)/cv_eng.pdf: cv_eng.tex hello prepare
+$(PRODUCT_DIR)/cv_eng.pdf: cv_eng.tex $(PRODUCT_DIR)
 	$(TEX) $<
 
 clean:
 	@rm -fr $(PRODUCT_DIR)
 
-prepare:
+$(PRODUCT_DIR):
 	@mkdir -p $(PRODUCT_DIR)
