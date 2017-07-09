@@ -58,11 +58,10 @@
     \item[$\dashv$] Web--Search antispam.
     \item[$\dashv$] Distributed key--value in--memory fast data base (cluster size 50--100 nodes):
         \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-            \item created logging in syslog and logfile instead of stderr;
             \item revised response formats code, create JSON format and sending detailed error report;
-            \item solved xceptions--safety problem (there is no chance to fail in case of a bad request or other manageable problem);
-            \item solved replicas synchronization problem in the case of pool connectivity (bug in renovated replica update process by HEAD replica);
-            \item built generating data sets for different instances of this storage;
+            \item solved exception--safety problem for storage master server;
+            \item solved replicas synchronization problem in the case of pool connectivity;
+            \item built generating data sets for different entities of this storage;
             \item made monitorings for instance updating processes.
         \end{itemize}
     \item[$\dashv$] High--performance web--documents processing system:
@@ -70,9 +69,9 @@
             \item made code refactoring (optimization, separating code to the independent modules, design correction);
             \item created monitorings for all point of the workflow;
             \item moved all computations from cluster (size 70--90 nodes) solution to Map--Reduce system;
-            \item substituted code solution for serializing compiled byte--code (using google protoBuf instead of invented there plain text format);
+            \item substituted code solution for serializing compiled byte--code;
             \item implemented new features like using Vowpal Wabbit and MatrixNet;
-            \item created service for the online document processing instead of slow offline batch process.
+            \item created service for an online document processing instead of slow offline batch process.
         \end{itemize}
 \end{itemize}
 \\
@@ -82,7 +81,7 @@
 & Software Engineer \\
 & \begin{itemize}[topsep = 0pt, itemsep = 0pt]
     \item[$\dashv$] Automatic control system for robotic 3--degree--of--freedom manipulator.
-    \item[$\dashv$] Testing, adjustment and problem diagnostics software for robotic arm.
+    \item[$\dashv$] Testing, installation and problem diagnostics software for robotic arm.
     \item[$\dashv$] Robot navigation system based on the telemetry, GPS and Earth magnetic field.
     \item[$\dashv$] Remote control and adjustment system for mobile robot.
     \item[$\dashv$] Image recognition for mobile robot computer vision.
