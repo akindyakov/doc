@@ -56,18 +56,18 @@
 & Software Engineer \\
 & \begin{itemize}[topsep = 0pt, itemsep = 0pt]
     \item[$\dashv$] Web--Search antispam.
-    \item[$\dashv$] Distributed key--value in--memory fast data base (cluster size 50--100 nodes):
+    \item[$\dashv$] Distributed in--memory data storage (cluster size 50--100 nodes):
         \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-            \item revised response formats code, create JSON format and sending detailed error report;
-            \item solved exception--safety problem for storage master server;
-            \item solved replicas synchronization problem in the case of pool connectivity;
+            \item revised response formats;
+            \item solved exception--safety problem for master server;
+            \item solved replicas synchronization problem;
             \item built generating data sets for different entities of this storage;
-            \item made monitorings for instance updating processes.
+            \item made monitorings for all activity on the cluster.
         \end{itemize}
     \item[$\dashv$] High--performance web--documents processing system:
         \begin{itemize}[topsep = 0pt, itemsep = 0pt]
-            \item made code refactoring (optimization, separating code to the independent modules, design correction);
-            \item created monitorings for all point of the workflow;
+            \item made code refactoring (optimization, decomposition, design correction);
+            \item created monitorings for key point of the workflow;
             \item moved all computations from cluster (size 70--90 nodes) solution to Map--Reduce system;
             \item substituted code solution for serializing compiled byte--code;
             \item implemented new features like using Vowpal Wabbit and MatrixNet;
